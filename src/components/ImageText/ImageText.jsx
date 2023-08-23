@@ -25,7 +25,7 @@ const ImageText = ({ data, id }) => {
         {data.email && <p>{data.email}</p>}
         {data.number && <p>{data.number}</p>}
         <a href={data.url} className="btn btn-primary">
-          {data.button} &rarr;
+          {data.button} {/*&rarr; */}
         </a>
       </div>
     </section>
