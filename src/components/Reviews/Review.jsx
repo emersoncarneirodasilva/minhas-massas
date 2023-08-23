@@ -18,7 +18,7 @@ const Review = ({ image, name, review }) => {
         />
       </div>
       <span>{name}</span>
-      <p>"{review}"</p>
+      <p>{review}</p>
     </div>
   );
 };
