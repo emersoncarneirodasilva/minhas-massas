@@ -1,0 +1,29 @@
+@import "../../styles/mixins.scss";
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .avatar {
+    position: relative;
+    width: 5.6rem;
+    height: 5.6rem;
+    margin-bottom: 1rem;
+    border-radius: 10rem;
+  }
+
+  span {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    max-width: 50rem;
+    width: 100%;
+  }
+}

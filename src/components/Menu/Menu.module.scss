@@ -1,0 +1,16 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.menu-wrapper {
+  padding: 6rem 0;
+  background-color: $background;
+  scroll-margin-top: 7rem;
+
+  .menu {
+    @include max-width;
+
+    .list {
+      list-style: none;
+    }
+  }
+}

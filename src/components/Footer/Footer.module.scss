@@ -1,0 +1,105 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.footer {
+  @include max-width;
+  padding: 6rem 1rem 3rem 1rem;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: $gradient2;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  h3,
+  li,
+  li > a,
+  p {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $lightBlack;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+
+    @include devices(tablet) {
+      flex-direction: column;
+      gap: 6rem;
+    }
+
+    .main {
+      a {
+        text-decoration: none;
+      }
+
+      span {
+        white-space: nowrap;
+        text-transform: uppercase;
+        padding: 4px 5px;
+        border: 2px solid $gradient2;
+        color: $gradient2;
+      }
+
+      h3 {
+        max-width: 27rem;
+        margin: 3rem 0 1.5rem;
+      }
+
+      ul > li {
+        display: inline-block;
+        margin-right: 1rem;
+
+        a {
+          display: flex;
+          padding: 0.5rem;
+          transition: all 0.5s ease;
+
+          &:hover {
+            color: $gradient2;
+            scale: 1.15;
+            transform: translate(2px, -3px);
+          }
+        }
+      }
+    }
+
+    .links,
+    .contacts {
+      h2 {
+        margin-bottom: 3rem;
+      }
+
+      ul > li:not(:last-of-type) {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .links {
+      ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+      }
+
+      ul > li > a:hover {
+        transition: all 0.3s ease;
+        color: $gradient2;
+      }
+    }
+  }
+
+  .bottom {
+    p {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.item {
+  display: flex;
+  align-items: center;
+
+  @include devices(mobile) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &:not(:last-of-type) {
+    margin-bottom: 2.5rem;
+
+    @include devices(mobile) {
+      margin-bottom: 4rem;
+    }
+  }
+
+  .content {
+    h3 {
+      text-transform: uppercase;
+      white-space: nowrap;
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: $white;
+    }
+
+    h4 {
+      // white-space: nowrap;
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: $white;
+    }
+  }
+
+  .divisor {
+    width: 100%;
+    margin: 0 2rem;
+    border-top: 1px dashed $white;
+
+    @include devices(mobile) {
+      display: none;
+    }
+  }
+
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $gold;
+    white-space: nowrap;
+  }
+}
