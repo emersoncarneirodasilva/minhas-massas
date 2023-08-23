@@ -1,5 +1,5 @@
-{
-  "extends": ["next/babel"]
-}
+// {
+//   "extends": ["next/babel"]
+// }
 
-// "extends": "next/core-web-vitals"
+{ "extends": "next/core-web-vitals" }
