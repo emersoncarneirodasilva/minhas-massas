@@ -67,5 +67,6 @@ export const getStaticProps = async () => {
       menu,
       footer,
     },
+    revalidate: 60,
   };
 };
