@@ -4,7 +4,7 @@ import { client } from "@sanity/lib/client";
 // Import Components
 import Header from "@src/components/Header/Header";
 import Benefits from "@src/components/Benefits/Benefits";
-import ImageText from "@src/components/ImageText/imageText";
+import ImageText from "@src/components/ImageText/ImageText";
 import Cardapio from "@src/components/Cardapio/Cardapio";
 import Reviews from "@src/components/Reviews/Reviews";
 import Menu from "@src/components/Menu/Menu";
