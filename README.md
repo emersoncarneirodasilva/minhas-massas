@@ -6,4 +6,6 @@ Construído com Next.js, Sass, Sanity.io o projeto abordou temas como: utilizaç
 
 Esse projeto foi feito a partir do vídeo (https://bit.ly/3YOSOtz) do canal do YouTube "Canal do Front" (https://bit.ly/3Eakf7I).
 
-![Captura da Web_24-8-2023_0156_minhas-massas vercel app](https://github.com/emersoncarneirodasilva/minhas-massas/assets/94311606/1c0cc8fc-b6f0-4fe2-a591-d8659f023dc1)
+![Captura da Web_24-8-2023_222820_minhas-massas vercel app](https://github.com/emersoncarneirodasilva/minhas-massas/assets/94311606/61da1204-1680-4cfb-aaa7-afd797b85b72)
+
+
